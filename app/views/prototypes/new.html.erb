@@ -1,0 +1,9 @@
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">新規プロトタイプ投稿</h2>
+      <%# new.html.erbから部分テンプレートである、_form.html.erbを呼び出す記述をした %>
+        <%= render partial: "form", locals: { prototype: @prototype } %>
+    </div>
+  </div>
+</div>
